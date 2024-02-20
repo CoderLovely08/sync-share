@@ -1,10 +1,11 @@
 import React from 'react'
+import HeroSection from '../sections/HeroSection'
 
 const LandingPage = () => {
   return (
-      <div className='w-full container'>
-          Landing page
-    </div>
+      <article className='w-full container'>
+          <HeroSection />
+    </article>
   )
 }
 
