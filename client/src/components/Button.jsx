@@ -9,7 +9,7 @@ const Button = ({ label, variant, onClick }) => {
     <>
       <button
         onClick={onClick}
-        className={`border border-yellow-500 font-bold rounded-md text-md font-palanquin px-2 py-1 mx-4 ${
+        className={`border border-yellow-500 font-bold rounded-md font-palanquin px-2 py-1 mx-4 ${
           variant == "outlined" ? outlined : contained
         } max-sm:text-sm max-sm:px-2 max-sm:py-1`}
       >
